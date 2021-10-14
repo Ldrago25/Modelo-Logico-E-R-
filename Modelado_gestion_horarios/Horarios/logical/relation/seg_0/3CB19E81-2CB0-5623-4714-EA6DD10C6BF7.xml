@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HorariosDisponibilidades Disponibilidades FK" directorySegmentName="seg_0" id="3CB19E81-2CB0-5623-4714-EA6DD10C6BF7">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:09:29 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<sourcePk>490B0E2F-6AA2-410E-615E-25B04EC54FCD</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>es</nameOnSource>
+<nameOnTarget>es</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>888FB4EE-83E9-9560-3AC6-D0CB61E85CA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41F458C6-A3DB-9A42-9B50-20DF25224CF9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

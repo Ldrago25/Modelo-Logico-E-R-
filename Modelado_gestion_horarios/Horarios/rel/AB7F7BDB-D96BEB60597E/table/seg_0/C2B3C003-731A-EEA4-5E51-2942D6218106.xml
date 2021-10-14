@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2B3C003-731A-EEA4-5E51-2942D6218106" name="Edificio">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>6400E5D5-4185-1368-9746-A8230D97408F</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Edificio_ID" id="05D36F54-6DA2-08F1-F5F8-96C2A05810E4">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="8D545D5D-21CE-4E4D-1AF1-CB77E86B7AD1">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>16D70A53-C651-7AA9-E15C-F31899E3095B</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="90C48FD1-1FF2-B096-5143-7462566F7A89">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>CDF73530-C7E3-0BB8-F37D-BB78F3190994</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DptoID" id="80257053-9E79-6815-8211-7FD2EEA98E0C">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>E9CEEDDC-3B53-5F93-41FD-1758B7996858</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9876555E-08A5-4A53-4F2B-65D2147CCAFB" name="Edificio_PK">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="05D36F54-6DA2-08F1-F5F8-96C2A05810E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

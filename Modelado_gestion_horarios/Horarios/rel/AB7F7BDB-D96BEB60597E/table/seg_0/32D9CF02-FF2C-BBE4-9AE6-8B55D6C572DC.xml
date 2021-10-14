@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D9CF02-FF2C-BBE4-9AE6-8B55D6C572DC" name="Aulas_de_asignaturas">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>0204DC6F-7DA1-A278-A2D6-980FBC3D1461</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1DA10807-23AE-6034-2559-125B4A161E97">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>C682822E-0C4D-5770-42F4-AF4135570A96</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AsignaturaID" id="2191E8BE-1555-36C6-C3A0-85F367DB41E0">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>37D20AF7-7432-AF76-17C1-F841CCE919AF</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AulaID" id="3894E69B-EA30-4222-3E5A-6910AD74D1F1">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>50FC5791-045D-9693-A13D-67059CDD7547</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aula_ID" id="FC44658F-901F-636D-308B-E890C2342369">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>9C6DCDEC-B9E6-5E70-9DA2-589BE32C383A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3512CF8A-8745-9403-8C4F-F961C65D25B4" referredColumn="E4D29415-3598-1869-D9D9-7E6622116E4D"/>
+</associations>
+</Column>
+<Column name="Asignaturas_Asignaturas_ID" id="17537634-FE05-5A61-0A23-30689F8286D4">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17166FEF-5472-103B-DE76-C6156AB8362C" referredColumn="ACAB609E-3709-3CD4-8B73-704116412984"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89CD2809-459E-6EDC-8578-FBF54DF09AC4" name="Aulas_de_asignaturas_Asignaturas_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>305C6A9F-B315-CAD2-E83C-BD5B36C0C2C3</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17537634-FE05-5A61-0A23-30689F8286D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBB6A4CA-6AF2-25CA-90AC-37119E0EF552" name="Aulas_de_asignaturas_Aula_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 05:16:28 UTC</createdTime>
+<generatorID>99384C6D-A9DA-AB8F-6DBC-729AD8D9B39F</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC44658F-901F-636D-308B-E890C2342369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

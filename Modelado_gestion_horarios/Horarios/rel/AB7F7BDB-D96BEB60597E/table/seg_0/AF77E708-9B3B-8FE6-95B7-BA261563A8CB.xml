@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF77E708-9B3B-8FE6-95B7-BA261563A8CB" name="Secciones">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>E1984A74-996E-1E39-628A-5447015146A7</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D7637D34-9955-2FDF-BA65-8BDCED5832AA">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>2935C534-D710-277B-508B-6DC186F362D9</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProfesorID" id="968F90B2-7055-B5E3-CCBF-A7361EDAAC5E">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>732543BD-11F9-71E2-B902-0614B34FE3C1</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AsignaturaID" id="21ABB38B-D7E4-1294-97D0-3B7BDD072C4F">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>F2E75CBB-FEA7-24F1-3346-3A11728D127A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asignaturas_Asignaturas_ID" id="AC377D57-3F79-7A89-C2A1-B2670CB6F65F">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F445AF1-8586-00AA-C86B-4B3205DE8F5D" referredColumn="ACAB609E-3709-3CD4-8B73-704116412984"/>
+</associations>
+</Column>
+<Column name="Profesores_Profesores_ID" id="A95566FF-31A2-7088-B817-BCBC6F188DED">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1593C6B1-E2C9-A884-E457-29D04025F640" referredColumn="ED3E642B-F3DA-A29F-8286-D58A693760DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8C40C63-7492-E7A7-F823-717C82A8CC4C" name="Secciones_Asignaturas_FK">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>A35B06F9-FB6C-54D7-0997-70CA79F87746</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC377D57-3F79-7A89-C2A1-B2670CB6F65F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B79CB53-8597-50E4-EC6C-A7605AF7A767" name="Secciones_Profesores_FK">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-10 23:12:24 UTC</createdTime>
+<generatorID>8D29C3B2-7292-BACF-1597-3855AEC2A9AB</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A95566FF-31A2-7088-B817-BCBC6F188DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

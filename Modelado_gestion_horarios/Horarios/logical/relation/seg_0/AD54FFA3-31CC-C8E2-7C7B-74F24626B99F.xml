@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Profesores Disponibilidades FK" directorySegmentName="seg_0" id="AD54FFA3-31CC-C8E2-7C7B-74F24626B99F">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:09:05 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<sourcePk>C1B8D756-276F-FCBC-3FE1-91451C2DFF52</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73F4F5D6-7245-B203-0548-7E0DAE0E0705</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41F458C6-A3DB-9A42-9B50-20DF25224CF9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Profesores Aula FK" directorySegmentName="seg_0" id="9098CAFF-8C4F-48DC-4FF1-7939CF3F9A05">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 16:54:22 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<sourcePk>C1B8D756-276F-FCBC-3FE1-91451C2DFF52</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>enseña</nameOnSource>
+<nameOnTarget>es usada por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73F4F5D6-7245-B203-0548-7E0DAE0E0705</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8DE816C8-010A-1205-0A33-EEB6039E90E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

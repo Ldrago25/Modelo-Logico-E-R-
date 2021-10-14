@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Horarios" id="E3501488-55A0-73D4-936A-27B54FDF2C8D" version="3.5">
+<createdBy>USER</createdBy>
+<createdTime>2021-10-09 20:33:24 UTC</createdTime>
+<ownerDesignName>modelo Logico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E3501488-55A0-73D4-936A-27B54FDF2C8D</designId>
+</OSDM_Design>

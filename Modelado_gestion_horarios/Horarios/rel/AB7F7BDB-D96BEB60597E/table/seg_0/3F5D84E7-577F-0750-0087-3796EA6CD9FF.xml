@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F5D84E7-577F-0750-0087-3796EA6CD9FF" name="Disponibilidad">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<generatorID>41F458C6-A3DB-9A42-9B50-20DF25224CF9</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D678DECE-62E2-809E-5DD4-AB89F74B64C6">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<generatorID>5BB397A2-22EC-949D-DECA-83BD831D8F44</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProfesorID" id="5B5E4F26-DA46-4B6C-013E-9B22A14AF121">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<generatorID>21CF1C3A-48C8-4145-819D-D263F071E705</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HorariosDisponibilidadesID" id="73454762-94AA-5B6D-0A66-38C6E68455A5">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<generatorID>1D4ABBAF-3D01-EBD7-94DC-330DC5AC90B4</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HorariosDisponibilidades_HorariosDisponibilidades_ID" id="06901649-63F9-1067-7E90-3ECF6EB0A146">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E7BD200-8964-3AC0-6F1B-E819DB745AB9" referredColumn="CA77204B-29CD-DD2F-2C78-9028F5A3006E"/>
+</associations>
+</Column>
+<Column name="Profesores_Profesores_ID" id="B7770027-B851-8A8C-2241-CD3FA5231817">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="918B8D17-519E-5A15-DE16-D1FD093020B4" referredColumn="ED3E642B-F3DA-A29F-8286-D58A693760DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D93268C7-0AC5-6A41-D909-DCD09900CE6A" name="Disponibilidad_HorariosDisponibilidades_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<generatorID>3CB19E81-2CB0-5623-4714-EA6DD10C6BF7</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06901649-63F9-1067-7E90-3ECF6EB0A146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80A6D2B9-377F-2FCA-504F-3D8D68E86E9F" name="Disponibilidad_Profesores_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-11 09:19:36 UTC</createdTime>
+<generatorID>AD54FFA3-31CC-C8E2-7C7B-74F24626B99F</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7770027-B851-8A8C-2241-CD3FA5231817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

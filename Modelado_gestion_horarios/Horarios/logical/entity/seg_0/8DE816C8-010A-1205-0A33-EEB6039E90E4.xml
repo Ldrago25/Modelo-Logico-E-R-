@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DE816C8-010A-1205-0A33-EEB6039E90E4" name="Aula">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 16:54:08 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6023F0E1-E8B3-CE53-A73D-00398E855A33">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 16:55:17 UTC</createdTime>
+<generatorID>15C32730-417B-E3C4-6674-FE0F04ED451C</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<referedAttribute>16D70A53-C651-7AA9-E15C-F31899E3095B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numeracion" id="53A61EC9-7AE7-A1E0-90D0-27B1E2CFFA80">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 16:55:40 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="176DEB4B-C0C5-B710-E079-1088D9715596">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 17:06:31 UTC</createdTime>
+<generatorID>9098CAFF-8C4F-48DC-4FF1-7939CF3F9A05</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<referedAttribute>EA75D858-132F-00CC-711D-809D7B3BCAA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6397D21-2CC1-C88C-F157-703C19713AD9" name="Aula PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 16:55:17 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6023F0E1-E8B3-CE53-A73D-00398E855A33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

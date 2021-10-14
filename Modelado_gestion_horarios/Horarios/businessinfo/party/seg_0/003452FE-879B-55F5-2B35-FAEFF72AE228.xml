@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIResponsibleParty class="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" name="ResParty_1" directorySegmentName="seg_0" id="003452FE-879B-55F5-2B35-FAEFF72AE228">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-14 17:45:38 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+</BIResponsibleParty>
