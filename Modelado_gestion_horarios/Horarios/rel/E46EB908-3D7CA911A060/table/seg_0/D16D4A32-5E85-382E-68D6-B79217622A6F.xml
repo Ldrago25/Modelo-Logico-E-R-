@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D16D4A32-5E85-382E-68D6-B79217622A6F" name="Tipos_de_departamentos">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 22:47:36 UTC</createdTime>
+<generatorID>4D36BC42-0926-5BB0-E5CE-A8690D224F55</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F4A0842A-D1B1-95CF-4362-C0B61CE70D63">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 22:47:36 UTC</createdTime>
+<generatorID>FFD8D76F-CBF3-93FF-6F85-931B9B217295</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_tipo" id="94FDA433-9DD2-BEEB-E7E7-F0C0A661A33D">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 22:47:36 UTC</createdTime>
+<generatorID>1E1DFC2E-088B-9E91-6BED-E224DFD9CF97</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59C0BC6A-E0CC-209E-9A37-6D71866767B0" name="Tipos_de_departamentos_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 22:47:36 UTC</createdTime>
+<generatorID>267241ED-C14A-7030-4550-A8EDE3214166</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4A0842A-D1B1-95CF-4362-C0B61CE70D63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF03E030-C07C-6754-74BD-8FF5933BADFE" name="Tipos_de_departamentos_Nombre_tipo_UN">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 22:47:36 UTC</createdTime>
+<generatorID>A2958736-F99D-7B93-353F-BAEE5FCE717E</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94FDA433-9DD2-BEEB-E7E7-F0C0A661A33D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

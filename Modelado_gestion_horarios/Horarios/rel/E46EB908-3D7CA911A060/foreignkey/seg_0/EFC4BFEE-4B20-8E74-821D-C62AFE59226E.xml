@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFC4BFEE-4B20-8E74-821D-C62AFE59226E" containerWithKeyObject="2AB1F1A6-CF69-4E22-DBD9-8A05316A4920" localFKIndex="231B662F-E218-3E17-3DA0-62E605A4C71B" name="Secciones_Profesores_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 22:47:36 UTC</createdTime>
+<generatorID>5859D555-F79A-C5EE-22D0-95214A0D64E2</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<referredTableLongName>Profesores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1EA47039-9B20-938F-E464-EEF428A3B388</referredTableID>
+<keyObject>D79B520A-A822-4EB9-EBCE-BB86E3FFC9D8</keyObject>
+<referredKeyID>D79B520A-A822-4EB9-EBCE-BB86E3FFC9D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cedula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
