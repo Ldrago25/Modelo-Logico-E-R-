@@ -1,19 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Secciones Profesores FK" directorySegmentName="seg_0" id="8D29C3B2-7292-BACF-1597-3855AEC2A9AB">
-<createdBy>USER</createdBy>
-<createdTime>2021-10-10 16:42:19 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="75D0C0DD-30B0-6F34-75DF-0A1DB3DB22AF">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:06:51 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
-<useSurrogateKey>true</useSurrogateKey>
-<identifying>false</identifying>
-<nameOnSource>asignada a</nameOnSource>
-<nameOnTarget>se asigna a</nameOnTarget>
+<sourcePk>2218F8B6-204F-4E28-8DC4-A484D9D90544</sourcePk>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>73F4F5D6-7245-B203-0548-7E0DAE0E0705</sourceEntity>
+<sourceEntity>410A7927-B2F7-68FF-6A57-27E8B530F567</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>E1984A74-996E-1E39-628A-5447015146A7</targetEntity>
 <transferable>true</transferable>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73F4F5D6-7245-B203-0548-7E0DAE0E0705" name="Profesor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73F4F5D6-7245-B203-0548-7E0DAE0E0705" name="Profesores">
 <createdBy>USER</createdBy>
 <createdTime>2021-10-10 02:40:23 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NumCarnet" id="C099CE4C-AC7F-1881-559D-A7FFD4ED6790">
+<Attribute name="Numero_carnet" id="C099CE4C-AC7F-1881-559D-A7FFD4ED6790">
 <createdBy>USER</createdBy>
 <createdTime>2021-10-10 14:51:30 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
@@ -48,9 +48,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>12 CHAR</dataTypeSize>
-<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nombre" id="C749155D-18ED-21E1-0863-CDE606547849">
 <createdBy>USER</createdBy>
@@ -72,7 +71,6 @@
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -118,6 +116,34 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="DDFDAE3B-8100-6B98-C71E-8D25A12A704E">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:07:39 UTC</createdTime>
+<generatorID>B75DD124-51F4-8246-2F15-4305239A8AF9</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<referedAttribute>FCF298B3-FAC5-58AF-F1C2-09980BE02A22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID11" id="C7D41105-6741-0514-2E28-7A65D9F5D478">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:08:02 UTC</createdTime>
+<generatorID>B75DD124-51F4-8246-2F15-4305239A8AF9</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<referedAttribute>04A0AC1F-94D4-BB22-124F-345A798C0D83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C1B8D756-276F-FCBC-3FE1-91451C2DFF52" name="Profesores PK">
@@ -130,6 +156,10 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>EA75D858-132F-00CC-711D-809D7B3BCAA1</attributeRef>
+<attributeRef>8CF5EC3E-4F33-05CD-E5B7-3BEAE65C6BB3</attributeRef>
+<attributeRef>C099CE4C-AC7F-1881-559D-A7FFD4ED6790</attributeRef>
+<attributeRef>DDFDAE3B-8100-6B98-C71E-8D25A12A704E</attributeRef>
+<attributeRef>C7D41105-6741-0514-2E28-7A65D9F5D478</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
