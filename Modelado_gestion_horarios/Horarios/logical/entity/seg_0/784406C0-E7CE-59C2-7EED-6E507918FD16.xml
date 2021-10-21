@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1984A74-996E-1E39-628A-5447015146A7" name="Secciones">
-<createdBy>USER</createdBy>
-<createdTime>2021-10-10 02:41:25 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="784406C0-E7CE-59C2-7EED-6E507918FD16" name="Bloques horarios">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="5F5E84D7-C917-F515-FCCC-13B195B1A779">
+<Attribute name="ID" id="88BEFF6C-87EF-5370-57AE-01A520C0A86B">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 03:13:42 UTC</createdTime>
+<createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
@@ -27,51 +27,50 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nro_seccion" id="ADB192AB-8EAF-AB0D-746D-1CDE917F2670">
+<Attribute name="Hora_desde" id="E84D1982-5448-580D-BDFA-E21EF4EC9D6D">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-14 17:07:38 UTC</createdTime>
+<createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT018</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="E80A7D65-7C9F-E78C-DF00-B4498E5A29CC">
+<Attribute name="Hora_hasta" id="362F862D-AB08-0C3C-D602-1A1DEA1222F1">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 20:33:03 UTC</createdTime>
-<generatorID>AD438395-43A3-236B-A918-8936C94CC576</generatorID>
+<createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
-<referedAttribute>47883A54-90CE-B63A-9B35-50F8E4645B29</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cedula" id="E9EC7006-7A9D-758D-D8E6-51F1F0A56B73">
+<Attribute name="Dia" id="796F3F49-95C5-B5EF-1FAC-E47EEC75CBFB">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 20:33:09 UTC</createdTime>
-<generatorID>5859D555-F79A-C5EE-22D0-95214A0D64E2</generatorID>
+<createdTime>2021-10-21 04:21:43 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
-<referedAttribute>68FF12F4-C18C-3599-1C0E-F0E544D54833</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="16E33340-0993-B921-9DCE-D3D62E3C00CD" name="Secciones PK">
+<identifier id="49E27A88-FA32-EBFA-B6E6-A56239C552CE" name="HorarioClase PK">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-14 17:07:22 UTC</createdTime>
+<createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -79,9 +78,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5F5E84D7-C917-F515-FCCC-13B195B1A779</attributeRef>
-<attributeRef>E80A7D65-7C9F-E78C-DF00-B4498E5A29CC</attributeRef>
-<attributeRef>E9EC7006-7A9D-758D-D8E6-51F1F0A56B73</attributeRef>
+<attributeRef>88BEFF6C-87EF-5370-57AE-01A520C0A86B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

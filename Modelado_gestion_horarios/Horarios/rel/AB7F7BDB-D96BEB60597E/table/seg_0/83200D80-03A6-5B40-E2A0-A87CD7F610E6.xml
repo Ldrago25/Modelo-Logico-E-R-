@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83200D80-03A6-5B40-E2A0-A87CD7F610E6" name="Personas">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>3AEB1154-B960-B6B6-1548-84948D2135AE</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cedula" id="A4C59BB6-4B90-5062-E609-746DFFD906BB">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>68FF12F4-C18C-3599-1C0E-F0E544D54833</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="4721D908-9A25-1DB0-B1FC-D4BF389181BF">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>A1ACEA36-DAA2-FA5A-8947-71FDF6452FD3</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="3FC71FE6-8BAD-DCBA-32C3-E1F6F318CAB7">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>A8BA48D1-8338-359A-BBA6-79AD3B6B5121</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="6EE6565C-99B5-8CD1-DB2E-5CBD2B7B2992">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>1B004B1B-2CF0-0429-E1A1-6C6BAE0557AE</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_1" id="EE87DFFA-DEE6-0F1F-845B-86A83EFDBE0B">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>B5F246FA-795A-CE7C-C5A9-0189B5AB61C4</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDB89E09-C85F-8212-706E-14B242F09CA5" name="Personas_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>5A453175-D025-91C1-00AF-F869483EB6D9</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4C59BB6-4B90-5062-E609-746DFFD906BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

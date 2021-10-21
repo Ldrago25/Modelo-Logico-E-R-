@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="75D0C0DD-30B0-6F34-75DF-0A1DB3DB22AF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_34" directorySegmentName="seg_0" id="AD438395-43A3-236B-A918-8936C94CC576">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 04:06:51 UTC</createdTime>
+<createdTime>2021-10-21 20:33:03 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
-<sourcePk>2218F8B6-204F-4E28-8DC4-A484D9D90544</sourcePk>
+<sourcePk>974252C6-1B92-D8EE-BE1B-95A567E09023</sourcePk>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

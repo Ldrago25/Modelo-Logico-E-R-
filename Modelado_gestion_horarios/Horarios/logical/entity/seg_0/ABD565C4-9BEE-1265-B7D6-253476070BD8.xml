@@ -53,10 +53,10 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="04A0AC1F-94D4-BB22-124F-345A798C0D83">
+<Attribute name="ID1" id="5C9AF1D9-CEC6-CD00-C531-6CF7613583DD">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 04:08:02 UTC</createdTime>
-<generatorID>FAC03BB8-9256-B9B1-E5D7-927C84AFEBDE</generatorID>
+<createdTime>2021-10-21 20:31:18 UTC</createdTime>
+<generatorID>99509954-EA1F-6FD5-E354-04833C2DD2AE</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
@@ -67,10 +67,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="38249D53-C5E2-95FD-413B-05F1D80F6D14">
+<Attribute name="ID2" id="C29426A6-AD08-CA43-8D62-A8EAAFEAC53F">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 04:08:12 UTC</createdTime>
-<generatorID>A081AEB5-142E-539B-D690-927E87150964</generatorID>
+<createdTime>2021-10-21 20:32:33 UTC</createdTime>
+<generatorID>89C707AA-7ED5-6D3A-DF8A-474DDE6C233C</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
@@ -93,7 +93,19 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FCF298B3-FAC5-58AF-F1C2-09980BE02A22</attributeRef>
-<attributeRef>04A0AC1F-94D4-BB22-124F-345A798C0D83</attributeRef>
+<attributeRef>5C9AF1D9-CEC6-CD00-C531-6CF7613583DD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9DCAF771-EA25-752D-B54F-E2EAA29B85D3" name="Unique">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 20:28:24 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
+</engineerTo>
+<newElementsIDs>FB01052E-365A-C777-0072-5D9B3AC00727</newElementsIDs>
+<usedAttributes>
+<attributeRef>FB01052E-365A-C777-0072-5D9B3AC00727</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

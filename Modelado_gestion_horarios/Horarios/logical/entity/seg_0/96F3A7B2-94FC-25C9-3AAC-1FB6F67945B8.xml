@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6400E5D5-4185-1368-9746-A8230D97408F" name="Edificios">
-<createdBy>USER</createdBy>
-<createdTime>2021-10-10 16:55:45 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96F3A7B2-94FC-25C9-3AAC-1FB6F67945B8" name="Disponibilidad horaria">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 17:21:50 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="16D70A53-C651-7AA9-E15C-F31899E3095B">
-<createdBy>USER</createdBy>
-<createdTime>2021-10-10 16:55:54 UTC</createdTime>
+<Attribute name="ID" id="59479745-24F8-2ACC-6EB1-5C78135AD744">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 18:52:17 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
@@ -27,32 +27,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="CDF73530-C7E3-0BB8-F37D-BB78F3190994">
-<createdBy>USER</createdBy>
-<createdTime>2021-10-10 16:56:06 UTC</createdTime>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5617960D-DE02-723B-1CC3-B38832721899" name="Disponibilidad PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 17:23:05 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="161A8304-CE4B-B2A7-02B9-7ABFE1AF00FA" name="Edificio PK">
-<createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-14 16:48:59 UTC</createdTime>
-<ownerDesignName>Horarios</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="false"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>16D70A53-C651-7AA9-E15C-F31899E3095B</attributeRef>
+<attributeRef>59479745-24F8-2ACC-6EB1-5C78135AD744</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

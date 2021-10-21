@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B43DC179-7DCA-EA94-FDCC-8254CD848008" name="Aulas">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>8DE816C8-010A-1205-0A33-EEB6039E90E4</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nro_aula" id="5473CC48-E639-E83F-8027-CCE31703E503">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>53A61EC9-7AE7-A1E0-90D0-27B1E2CFFA80</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesores_ID" id="CFCA119C-C7EB-B0FB-F36D-DDDB5EA1EBAF">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>DA3F404A-8A4F-69FA-9564-62386AED4874</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesores_Cedula" id="CA4F8D27-CF04-7110-F7F8-AF2B8CBB27A7">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>23B8A8A9-7D24-5B4F-0680-F96D0DDEB19A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edificios_ID" id="C42B6458-2EA4-4097-6F04-87E1540492FE">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>3207CD8B-6A08-C198-6794-33B353F37233</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EC9BD69-9F9D-FE02-6F68-294BBB1D0546" referredColumn="8D545D5D-21CE-4E4D-1AF1-CB77E86B7AD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D83D9BF-F025-69EB-C5C1-B7E05148D183" name="Aulas_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>C6397D21-2CC1-C88C-F157-703C19713AD9</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42B6458-2EA4-4097-6F04-87E1540492FE"/>
+<colUsage columnID="5473CC48-E639-E83F-8027-CCE31703E503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDCC5971-90C1-789B-8D34-11BBE7A8D2ED" name="Aulas_Edificios_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 04:16:12 UTC</createdTime>
+<generatorID>BE8007E1-1BCC-4E91-427A-873DC31565F4</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42B6458-2EA4-4097-6F04-87E1540492FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

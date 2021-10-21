@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC2BF2C5-05F3-D13B-6E7C-DF957D6A421E" name="Bloques_horarios">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>784406C0-E7CE-59C2-7EED-6E507918FD16</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="43D99E37-1628-5391-60CE-5A747F6790FF">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>88BEFF6C-87EF-5370-57AE-01A520C0A86B</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_desde" id="C1F80816-796A-8069-F815-02A768397872">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>E84D1982-5448-580D-BDFA-E21EF4EC9D6D</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_hasta" id="8767E99B-8AB4-04D4-BDED-BEC86A5C6255">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>362F862D-AB08-0C3C-D602-1A1DEA1222F1</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dia" id="CE1AC577-29EF-E791-B9CF-A007587B32DF">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>796F3F49-95C5-B5EF-1FAC-E47EEC75CBFB</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aulas_Profesores_Numero_carnet" id="D0B81B20-9A04-64EF-2160-9A73190B36D7">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>73986758-3730-D556-CF59-2DA202374538</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aulas_Profesores_Departamentos_ID" id="D155D0FD-AEFA-6AB2-5B3D-101178D9D62C">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>F27B9D47-40F6-7539-A6CC-CEFC71B1C207</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aulas_Profesores_Departamentos_ID1" id="8D90AC9C-3FD4-ED38-2E0D-1DC799D8CFCF">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>6304E5C7-AD0B-9C8B-CE41-BB0B1B776DBA</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80BED345-9C7E-2463-DA14-14932E5DF942" name="Bloques_horarios_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 05:18:29 UTC</createdTime>
+<generatorID>49E27A88-FA32-EBFA-B6E6-A56239C552CE</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43D99E37-1628-5391-60CE-5A747F6790FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

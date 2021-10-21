@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="A081AEB5-142E-539B-D690-927E87150964">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_31" directorySegmentName="seg_0" id="89C707AA-7ED5-6D3A-DF8A-474DDE6C233C">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 04:08:12 UTC</createdTime>
+<createdTime>2021-10-21 20:32:33 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="AB7F7BDB-E61A-9704-004E-D96BEB60597E" value="true"/>
