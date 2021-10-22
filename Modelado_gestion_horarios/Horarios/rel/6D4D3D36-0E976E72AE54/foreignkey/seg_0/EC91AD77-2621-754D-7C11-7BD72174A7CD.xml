@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC91AD77-2621-754D-7C11-7BD72174A7CD" containerWithKeyObject="28BF45D7-BAAF-DF7F-5887-2C180C8AF160" localFKIndex="DF3C1B1E-1761-F86C-0F14-9C295D3FB36A" name="Disponibilidades_Horarios_de_disponibilidades_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-21 23:25:24 UTC</createdTime>
+<generatorID>CA18BE35-555B-8A47-F536-4DCED8266878</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<referredTableLongName>Horarios_de_disponibilidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4EFC864-CE35-6F59-7E06-EB9E39E14333</referredTableID>
+<keyObject>C06751D2-59BB-8DCA-324A-413C73462576</keyObject>
+<referredKeyID>C06751D2-59BB-8DCA-324A-413C73462576</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

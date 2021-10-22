@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="AA0189A6-4952-E0E2-895C-79D210EB8AE5" name="Arc_1">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 14:48:59 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>3A52408A-9498-7FAA-6148-61CF141DA81C</table>
+<fkeys>
+<fkeyID>EE07611E-F8C1-0C47-4743-9F9E38D9C0DE</fkeyID>
+<fkeyID>164079E4-6F1D-4482-E756-4ECD13169C29</fkeyID>
+</fkeys>
+</FKArc>
