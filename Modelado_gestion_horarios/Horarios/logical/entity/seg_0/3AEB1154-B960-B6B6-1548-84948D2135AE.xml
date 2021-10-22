@@ -4,7 +4,7 @@
 <createdTime>2021-10-21 05:00:35 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-10-21 05:00:58 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2021-10-21 05:01:06 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2021-10-21 05:01:17 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2021-10-21 05:01:55 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,14 +66,29 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Direccion" id="3802F7E3-8D6C-C2BE-5020-B66BB245313D">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 20:14:31 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5A453175-D025-91C1-00AF-F869483EB6D9" name="Persona PK">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-21 05:00:46 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -84,8 +99,9 @@
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-21 21:01:11 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="9233049D-336E-DA27-3682-99E1908581C6" value="false"/>
 </engineerTo>
 <newElementsIDs>1B004B1B-2CF0-0429-E1A1-6C6BAE0557AE</newElementsIDs>
 <usedAttributes>

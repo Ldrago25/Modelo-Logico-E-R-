@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDFEC18F-EFFA-F9DE-34C4-F07CF2C8A1B6" name="Horarios_clases">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>B1DD6BCB-33E7-5B7D-26C9-8944F15A8608</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8AD34D16-CFF9-EEA1-626C-9282C8A9B838">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>7AE4D13E-192E-95FF-C697-6DD720DD24AF</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aulas_ID" id="0E9AF95D-D60F-0704-B7D7-E28D899F7EFE">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>379CDD7B-9210-249A-4D9E-D73E4DA4A5CD</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E489D5F5-B8CD-3A52-627B-5A5DCC2A7EB4" referredColumn="EB6F914F-BB35-7E53-E623-EA4AF569012C"/>
+</associations>
+</Column>
+<Column name="Aulas_Edificios_ID" id="45B1D5C5-5A1D-39C0-D325-9FA9B0196F40">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>87A25780-A86C-1EFD-ED4C-975461F6CA34</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E489D5F5-B8CD-3A52-627B-5A5DCC2A7EB4" referredColumn="72211B0E-092E-267A-C552-BD4EA4A84C37"/>
+</associations>
+</Column>
+<Column name="Secciones_ID" id="EC88BE01-8010-544B-8DC1-7735A5B085D3">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>151C4343-B7EE-616B-0210-D3751F7EEC43</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F74B623-80B4-A7BB-F4DF-FB89876027D6" referredColumn="93479B50-2816-29A9-38F2-62D2B0DB12AC"/>
+</associations>
+</Column>
+<Column name="Secciones_Asignaturas_ID" id="84EDE8BA-9FFA-6A88-4CE2-C1935C4B619C">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>89CFF2A8-6252-8CE8-173D-6924380739DD</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F74B623-80B4-A7BB-F4DF-FB89876027D6" referredColumn="70336E00-DC44-1E73-0283-70AA2AAC2674"/>
+</associations>
+</Column>
+<Column name="Secciones_Profesores_Cedula" id="2B794D2D-1815-0E93-7552-2D26B25FD0F6">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>D496C216-CAFC-500A-C054-11D867E584A5</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F74B623-80B4-A7BB-F4DF-FB89876027D6" referredColumn="84C4B717-9E08-81C5-D3CC-E47E911DDD93"/>
+</associations>
+</Column>
+<Column name="Bloques_horarios_ID" id="ED6D9760-E3DB-631B-C5CE-1A8F69EDF592">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>1F78859C-F550-2694-EF75-304B3E5436C6</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31C26049-EE52-33D0-D796-D52C0810DF21" referredColumn="DD9929F2-6781-0CE5-B86B-E7B5FDF613F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7F44B93-FDC1-B68C-577C-1812493F7113" name="Horarios_de_clases_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>4474C6D5-D848-7C9C-E26C-1E56D0F5C9F0</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AD34D16-CFF9-EEA1-626C-9282C8A9B838"/>
+<colUsage columnID="0E9AF95D-D60F-0704-B7D7-E28D899F7EFE"/>
+<colUsage columnID="45B1D5C5-5A1D-39C0-D325-9FA9B0196F40"/>
+<colUsage columnID="EC88BE01-8010-544B-8DC1-7735A5B085D3"/>
+<colUsage columnID="84EDE8BA-9FFA-6A88-4CE2-C1935C4B619C"/>
+<colUsage columnID="2B794D2D-1815-0E93-7552-2D26B25FD0F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D8522E7-FAEC-179D-91A0-44598C7D0331" name="Horarios_de_clases_Aulas_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>9ECFC40C-CCBB-37FB-CE55-379A9543D16E</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E9AF95D-D60F-0704-B7D7-E28D899F7EFE"/>
+<colUsage columnID="45B1D5C5-5A1D-39C0-D325-9FA9B0196F40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80CF796E-621C-BF2D-D5B4-3C0DA46545BC" name="Horarios_de_clases_Secciones_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>A7C79E85-8D43-16EB-06CE-5FBEFBB492B1</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC88BE01-8010-544B-8DC1-7735A5B085D3"/>
+<colUsage columnID="84EDE8BA-9FFA-6A88-4CE2-C1935C4B619C"/>
+<colUsage columnID="2B794D2D-1815-0E93-7552-2D26B25FD0F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E7AF213-B30E-AF80-D943-36103788A178" name="Horarios_de_clases_Bloques_horarios_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 21:10:01 UTC</createdTime>
+<generatorID>E094CD8C-BAFF-3B4B-8F30-6428A252C41A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED6D9760-E3DB-631B-C5CE-1A8F69EDF592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
