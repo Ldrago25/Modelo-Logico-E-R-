@@ -4,7 +4,7 @@
 <createdTime>2021-10-21 05:49:39 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,8 @@
 <createdTime>2021-10-21 17:09:44 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID1" id="A7082D09-DC74-10C3-091E-88310E273A75">
-<createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-21 22:36:51 UTC</createdTime>
-<generatorID>E094CD8C-BAFF-3B4B-8F30-6428A252C41A</generatorID>
-<ownerDesignName>Horarios</ownerDesignName>
-<engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
-</engineerTo>
-<referedAttribute>88BEFF6C-87EF-5370-57AE-01A520C0A86B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -47,7 +33,7 @@
 <generatorID>9ECFC40C-CCBB-37FB-CE55-379A9543D16E</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <referedAttribute>4427A3AF-048B-AF66-D8D2-DEFA139C5E1A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +47,7 @@
 <generatorID>9ECFC40C-CCBB-37FB-CE55-379A9543D16E</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <referedAttribute>20D50788-9F42-4BA8-ECA7-C04C53FC3ED8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -75,7 +61,7 @@
 <generatorID>A7C79E85-8D43-16EB-06CE-5FBEFBB492B1</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <referedAttribute>5F5E84D7-C917-F515-FCCC-13B195B1A779</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,7 +75,7 @@
 <generatorID>A7C79E85-8D43-16EB-06CE-5FBEFBB492B1</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <referedAttribute>E80A7D65-7C9F-E78C-DF00-B4498E5A29CC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,9 +89,23 @@
 <generatorID>A7C79E85-8D43-16EB-06CE-5FBEFBB492B1</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <referedAttribute>E9EC7006-7A9D-758D-D8E6-51F1F0A56B73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="1F78859C-F550-2694-EF75-304B3E5436C6">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-22 02:55:58 UTC</createdTime>
+<generatorID>E094CD8C-BAFF-3B4B-8F30-6428A252C41A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
+</engineerTo>
+<referedAttribute>88BEFF6C-87EF-5370-57AE-01A520C0A86B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -118,7 +118,7 @@
 <createdTime>2021-10-21 05:49:49 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="288FA720-9E97-DA7F-99C9-78BF9E37B87B" value="true"/>
+<item key="B7FAA4EA-EF84-7751-36A3-F6128AD9A82D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
