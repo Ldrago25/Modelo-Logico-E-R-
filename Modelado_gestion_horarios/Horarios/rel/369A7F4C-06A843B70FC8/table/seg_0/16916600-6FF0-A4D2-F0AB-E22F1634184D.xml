@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16916600-6FF0-A4D2-F0AB-E22F1634184D" name="Departamentos">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>ABD565C4-9BEE-1265-B7D6-253476070BD8</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DB4AC1DF-541F-319E-8346-9B599BA5F57E">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>FCF298B3-FAC5-58AF-F1C2-09980BE02A22</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="43E95431-102A-8958-9869-E14029F735CB">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>FB01052E-365A-C777-0072-5D9B3AC00727</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carrera" id="F2D7332E-6C89-FCD1-4B76-180E53BC3383">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>15A37321-96CE-0A9D-4348-FB3368D3AD69</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipos_dptos_ID" id="3C6ED331-60B1-2097-A1C1-4E2ED7F25EB3">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>5C9AF1D9-CEC6-CD00-C531-6CF7613583DD</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F0425EB-E675-11ED-7E4E-ECEC659E0D16" referredColumn="8AC3E2CC-4F79-B227-4514-FFDCA42398A0"/>
+</associations>
+</Column>
+<Column name="Edificios_ID" id="43EA0A86-7799-CC8D-A9A1-ECE7D75E829E">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>27FF0F08-EACA-2B0D-307A-3EAA8B677CDD</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6724C264-271D-8E1F-BB3B-95CBE0C9F7A1" referredColumn="D9A9853C-D120-BE1F-C4E1-F96780C6D29A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A37583D8-C1E1-DBE3-E2CB-49FE4680F892" name="Departamentos_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>FEB0E2B0-74B3-5C9A-837F-0837F9E28B14</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4AC1DF-541F-319E-8346-9B599BA5F57E"/>
+<colUsage columnID="3C6ED331-60B1-2097-A1C1-4E2ED7F25EB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A14F0AD-0916-4619-3F3F-41B2B467933C" name="Departamentos_Codigo_UN">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>9DCAF771-EA25-752D-B54F-E2EAA29B85D3</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E95431-102A-8958-9869-E14029F735CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAC2E393-C66F-700C-565B-00C8F09F8856" name="Departamentos_Edificios_ID_UN">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:27:07 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43EA0A86-7799-CC8D-A9A1-ECE7D75E829E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72F49EBA-9D63-E6A7-37C5-5A1A5755A80B" name="Departamentos__IDX">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>89C707AA-7ED5-6D3A-DF8A-474DDE6C233C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="43EA0A86-7799-CC8D-A9A1-ECE7D75E829E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19AFF771-11E2-8A45-1117-2CB6E1B28C60" name="Departamentos_Tipos_dptos_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>99509954-EA1F-6FD5-E354-04833C2DD2AE</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C6ED331-60B1-2097-A1C1-4E2ED7F25EB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5690EBD1-A2F1-3EFC-A3DE-3431BDCF627F" name="Departamentos_Edificios_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>89C707AA-7ED5-6D3A-DF8A-474DDE6C233C</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43EA0A86-7799-CC8D-A9A1-ECE7D75E829E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1000CC6C-10BB-4886-9EA2-43E7FFC7823F" name="Areas_conocimientos">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>290F229F-1EDD-89D2-C75D-4002661A4C0E</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CE104EFA-3D8F-23BB-416D-BFC4EF73879C">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>A38D6220-3952-5724-7F01-01F972EAB86A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="02092E08-ABD4-0054-694F-1D3540561447">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>F95C955C-CE46-776C-7A53-E35E3A7C4C77</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="93EC27BE-ACB9-669B-84A6-9792E289A8DC">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>8541E8C2-AF10-17F6-8000-B51655B83AF3</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8419BA38-F71B-A286-B829-915BEEBA6283" name="Areas_conocimientos_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>E79B087C-DE82-4548-FDBE-D2C3CFCA6C52</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE104EFA-3D8F-23BB-416D-BFC4EF73879C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F225365B-9054-9521-C04E-F39E7D9FDA7E" name="Areas_conocimientos_Nombre_UN">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>3DB4CCAC-B3D9-D3B1-5B6D-787270548A4B</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02092E08-ABD4-0054-694F-1D3540561447"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92E867D4-B9E8-770D-6E86-CF39B9E3F520" name="Disponibilidad_horas">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>96F3A7B2-94FC-25C9-3AAC-1FB6F67945B8</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="12D4CAD5-25CF-B5B6-A9EC-5DBF6F31EA60">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>59479745-24F8-2ACC-6EB1-5C78135AD744</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesores_Nro_carnet" id="EF9709DB-057D-2510-B048-3A72C6EEBCD3">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>DCAF00DA-8C7F-87C3-BB6A-C942D17B2856</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BBBBFD-60E8-7135-28E3-8291F1F2AF5D" referredColumn="898CB715-B00D-A8C3-032F-19CEF7D488DA"/>
+</associations>
+</Column>
+<Column name="Profesores_Departamentos_ID" id="41E30711-431B-8A61-F370-5C3C4A45DF91">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>4F80043A-B79A-0CF9-5059-8AC8B3F24F85</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BBBBFD-60E8-7135-28E3-8291F1F2AF5D" referredColumn="6DE1F414-1CBC-867F-9F8A-212D8D8CD579"/>
+</associations>
+</Column>
+<Column name="Profesores_Departamentos_Tipos_dptos_ID" id="85928DCA-FD84-7380-249F-1EE8EC6ECDAE">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>ED4F213A-D372-2B69-350F-1C0A1358E4A1</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BBBBFD-60E8-7135-28E3-8291F1F2AF5D" referredColumn="56CFCC9C-64BE-682B-A100-1E57F408DA6E"/>
+</associations>
+</Column>
+<Column name="Bloques_horas_ID" id="1316ADC9-7A17-10BC-913B-D05E36EA2211">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>0802F109-13A9-6BC8-534A-30D309D84D52</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5F68E1A-D0EC-8456-E68B-ABC3C57147FB" referredColumn="414DC8BB-5294-4D86-E887-0329431B92EB"/>
+</associations>
+</Column>
+<Column name="Profesores_Areas_conocimientos_ID" id="7CA116C6-279A-B281-6148-B41732E6D169">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>D181C4CA-B5D1-EE5A-BB5E-89FD5009F31C</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BBBBFD-60E8-7135-28E3-8291F1F2AF5D" referredColumn="0D46BE15-DC17-4ED2-77D0-6A4001A555CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F2C8369-95E0-C15E-DB78-C3F645189067" name="Disponibilidad_horas_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>5617960D-DE02-723B-1CC3-B38832721899</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12D4CAD5-25CF-B5B6-A9EC-5DBF6F31EA60"/>
+<colUsage columnID="EF9709DB-057D-2510-B048-3A72C6EEBCD3"/>
+<colUsage columnID="41E30711-431B-8A61-F370-5C3C4A45DF91"/>
+<colUsage columnID="85928DCA-FD84-7380-249F-1EE8EC6ECDAE"/>
+<colUsage columnID="7CA116C6-279A-B281-6148-B41732E6D169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D841836-4027-ECDD-C699-7CFD3EC546C1" name="Disponibilidad_horas__UN">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:41:51 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF9709DB-057D-2510-B048-3A72C6EEBCD3"/>
+<colUsage columnID="1316ADC9-7A17-10BC-913B-D05E36EA2211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BB589BD-8C7C-1AE7-899A-D043A5E11701" name="Disponibilidad_horas_Profesores_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>FBD2538F-F794-3919-0087-DA7ECA7A2790</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF9709DB-057D-2510-B048-3A72C6EEBCD3"/>
+<colUsage columnID="41E30711-431B-8A61-F370-5C3C4A45DF91"/>
+<colUsage columnID="85928DCA-FD84-7380-249F-1EE8EC6ECDAE"/>
+<colUsage columnID="7CA116C6-279A-B281-6148-B41732E6D169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C35EFE7-BAA2-6E2C-A0AC-A5400C564863" name="Disponibilidad_horas_Bloques_horas_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-23 01:24:14 UTC</createdTime>
+<generatorID>A8BFA781-6BFD-636B-9CEB-5987913C3391</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1316ADC9-7A17-10BC-913B-D05E36EA2211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
