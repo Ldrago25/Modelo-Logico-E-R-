@@ -56,9 +56,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C74F84B4-903F-399F-B890-37C7D4451CBE" referredColumn="FE2B704D-21C4-25BE-260D-CC2B2BD16976"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -97,17 +94,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="66D129EB-6977-BA3D-93CB-2B6E086888B8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F91954CA-C268-21B4-D489-15E95E4EAA16" name="Secciones_Profesores_FK">
-<createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-23 01:24:14 UTC</createdTime>
-<generatorID>5859D555-F79A-C5EE-22D0-95214A0D64E2</generatorID>
-<ownerDesignName>Horarios</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9EC5EFB2-0784-BE23-3226-5F9C2389243F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
