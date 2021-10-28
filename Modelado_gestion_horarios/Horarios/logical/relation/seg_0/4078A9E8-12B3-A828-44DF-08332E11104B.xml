@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_51" directorySegmentName="seg_0" id="4078A9E8-12B3-A828-44DF-08332E11104B">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-26 05:21:40 UTC</createdTime>
+<ownerDesignName>Horarios</ownerDesignName>
+<engineerTo>
+<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+</engineerTo>
+<sourcePk>5A453175-D025-91C1-00AF-F869483EB6D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AEB1154-B960-B6B6-1548-84948D2135AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1984A74-996E-1E39-628A-5447015146A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
