@@ -4,7 +4,7 @@
 <createdTime>2021-10-09 20:36:34 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-10-21 03:08:01 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2021-10-10 02:36:47 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2021-10-10 02:37:21 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,41 +58,41 @@
 <createdTime>2021-10-10 02:37:54 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>9 CHAR</dataTypeSize>
-<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Hora_teoria" id="472A42F7-6CBB-BC91-EF6F-E777346776A4">
 <createdBy>USER</createdBy>
 <createdTime>2021-10-10 02:39:50 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>9 CHAR</dataTypeSize>
-<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Estado" id="55F04C2A-613F-0D18-7FC0-90D49921DD7B">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-22 03:03:00 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -101,7 +101,7 @@
 <createdTime>2021-10-21 19:42:18 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>47883A54-90CE-B63A-9B35-50F8E4645B29</newElementsIDs>
@@ -114,7 +114,7 @@
 <createdTime>2021-10-21 19:43:11 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <newElementsIDs>BDDAD9C1-B42A-3F80-24AD-9B7C229250A2</newElementsIDs>
 <usedAttributes>
@@ -126,7 +126,7 @@
 <createdTime>2021-10-23 01:21:48 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <newElementsIDs>062C20E0-BFE7-DB8F-B234-95BBFF3976FB</newElementsIDs>
 <usedAttributes>

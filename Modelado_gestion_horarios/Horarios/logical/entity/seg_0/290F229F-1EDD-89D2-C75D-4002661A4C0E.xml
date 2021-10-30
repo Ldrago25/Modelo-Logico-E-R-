@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="290F229F-1EDD-89D2-C75D-4002661A4C0E" name="Areas conocimientos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="290F229F-1EDD-89D2-C75D-4002661A4C0E" name="Areas Saber">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-22 20:08:55 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +21,8 @@
 <createdTime>2021-10-22 20:09:46 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,8 @@
 <createdTime>2021-10-22 20:10:14 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +48,8 @@
 <createdTime>2021-10-22 20:11:00 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,7 +63,8 @@
 <generatorID>42096324-E09C-6D46-914D-052A5BAEEADB</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <referedAttribute>FCF298B3-FAC5-58AF-F1C2-09980BE02A22</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +79,8 @@
 <createdTime>2021-10-22 20:09:53 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>A38D6220-3952-5724-7F01-01F972EAB86A</newElementsIDs>
@@ -87,7 +93,8 @@
 <createdTime>2021-10-23 01:23:07 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="5B14A540-CB17-28C4-BC7B-F2C98CE18FBA" value="true"/>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
+<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <newElementsIDs>F95C955C-CE46-776C-7A53-E35E3A7C4C77</newElementsIDs>
 <usedAttributes>

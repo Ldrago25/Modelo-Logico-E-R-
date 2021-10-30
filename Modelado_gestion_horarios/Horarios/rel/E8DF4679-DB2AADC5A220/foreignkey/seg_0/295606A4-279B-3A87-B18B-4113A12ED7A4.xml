@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="295606A4-279B-3A87-B18B-4113A12ED7A4" containerWithKeyObject="2D1E16BC-B1C8-2647-A27B-13B5977487D6" localFKIndex="51F0ACF4-B5D2-5C17-EC57-E10D8CDA98C7" name="Disponibilidad_Bloque_hora_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>5A2AA1B9-CDC2-6A4C-2445-F4DE1AB7EEB5</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<referredTableLongName>Bloque_hora</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3FDFAE6-5FC6-7F74-BFCA-BFF27107FE61</referredTableID>
+<keyObject>869AFC76-87EA-F4FD-25AB-712D8B638E1F</keyObject>
+<referredKeyID>869AFC76-87EA-F4FD-25AB-712D8B638E1F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Hora_desde,Hora_hasta,Dia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

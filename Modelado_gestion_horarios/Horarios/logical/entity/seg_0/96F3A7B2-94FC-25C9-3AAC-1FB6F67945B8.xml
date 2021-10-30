@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96F3A7B2-94FC-25C9-3AAC-1FB6F67945B8" name="Disponibilidad horas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96F3A7B2-94FC-25C9-3AAC-1FB6F67945B8" name="Disponibilidad">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-21 17:21:50 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,12 +22,14 @@
 <generatorID>06903D0C-450B-726E-BFE2-10702C2E9AD4</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <referedAttribute>68FF12F4-C18C-3599-1C0E-F0E544D54833</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Hora_desde" id="7274A9D2-3C81-77FD-DC06-36BC06FCA0F6">
@@ -35,6 +38,7 @@
 <generatorID>5A2AA1B9-CDC2-6A4C-2445-F4DE1AB7EEB5</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <referedAttribute>E84D1982-5448-580D-BDFA-E21EF4EC9D6D</referedAttribute>
@@ -50,6 +54,7 @@
 <generatorID>5A2AA1B9-CDC2-6A4C-2445-F4DE1AB7EEB5</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <referedAttribute>362F862D-AB08-0C3C-D602-1A1DEA1222F1</referedAttribute>
@@ -65,6 +70,7 @@
 <generatorID>5A2AA1B9-CDC2-6A4C-2445-F4DE1AB7EEB5</generatorID>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <referedAttribute>796F3F49-95C5-B5EF-1FAC-E47EEC75CBFB</referedAttribute>
@@ -81,6 +87,7 @@
 <createdTime>2021-10-21 17:23:05 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <pk>true</pk>
@@ -97,6 +104,7 @@
 <createdTime>2021-10-26 05:54:51 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
+<item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
 <newElementsIDs>1EAC6A16-D683-991B-A16F-856CFC291E23,7274A9D2-3C81-77FD-DC06-36BC06FCA0F6,2E9F9E20-9446-4DDF-F73E-792DA3D6AB91</newElementsIDs>

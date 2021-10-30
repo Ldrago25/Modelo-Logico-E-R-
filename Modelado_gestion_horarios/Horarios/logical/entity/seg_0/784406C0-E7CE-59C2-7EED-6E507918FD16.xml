@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="784406C0-E7CE-59C2-7EED-6E507918FD16" name="Bloques horas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="784406C0-E7CE-59C2-7EED-6E507918FD16" name="Bloque hora">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,33 +20,33 @@
 <createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>9 CHAR</dataTypeSize>
-<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Hora_hasta" id="362F862D-AB08-0C3C-D602-1A1DEA1222F1">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>9 CHAR</dataTypeSize>
-<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Dia" id="796F3F49-95C5-B5EF-1FAC-E47EEC75CBFB">
 <createdBy>VORTICE DIGITAL</createdBy>
 <createdTime>2021-10-21 04:21:43 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,7 +61,7 @@
 <createdTime>2021-10-21 04:21:32 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
-<item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
+<item key="B33CEC3C-2E53-E2DB-D317-76D688115934" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>E84D1982-5448-580D-BDFA-E21EF4EC9D6D,362F862D-AB08-0C3C-D602-1A1DEA1222F1,796F3F49-95C5-B5EF-1FAC-E47EEC75CBFB</newElementsIDs>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3056E519-F8F5-9BCF-322B-C8B41D6246B9" name="Areas_Saber">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>290F229F-1EDD-89D2-C75D-4002661A4C0E</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="38ACFB1B-2CEC-8716-52B0-A8A16C973D6F">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>A38D6220-3952-5724-7F01-01F972EAB86A</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="29C2A321-348E-C1C5-821C-0453CC21874C">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>F95C955C-CE46-776C-7A53-E35E3A7C4C77</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="365B0D7D-120F-2F5C-E714-4CD9514BD6D1">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>8541E8C2-AF10-17F6-8000-B51655B83AF3</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamentos_ID" id="1C27F97E-32E6-68FA-FC4B-FFCD134200B1">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>277067E8-06BB-D565-5BC7-BFA4902DCAC2</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76984AD4-2161-156E-61FD-17D266590499" referredColumn="99B4E4F3-7AA8-6945-D835-CCE000A370DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="657CB934-A1A5-FE68-846C-DA0C25180A44" name="Areas_Saber_PK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>E79B087C-DE82-4548-FDBE-D2C3CFCA6C52</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38ACFB1B-2CEC-8716-52B0-A8A16C973D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54489BAE-DAD2-3631-E37C-5E9DA65A9069" name="Areas_Saber_Nombre_UN">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>3DB4CCAC-B3D9-D3B1-5B6D-787270548A4B</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29C2A321-348E-C1C5-821C-0453CC21874C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0067DEAC-6DFD-8330-67A8-3AC63E47B7B4" name="Areas_Saber_Departamentos_FK">
+<createdBy>VORTICE DIGITAL</createdBy>
+<createdTime>2021-10-30 20:53:30 UTC</createdTime>
+<generatorID>42096324-E09C-6D46-914D-052A5BAEEADB</generatorID>
+<ownerDesignName>Horarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C27F97E-32E6-68FA-FC4B-FFCD134200B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

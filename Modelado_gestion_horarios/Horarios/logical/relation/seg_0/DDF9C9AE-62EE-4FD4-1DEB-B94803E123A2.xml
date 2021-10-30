@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_57" directorySegmentName="seg_0" id="CFF4C132-0E28-E19F-80FF-EECAC189307F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="DDF9C9AE-62EE-4FD4-1DEB-B94803E123A2">
 <createdBy>VORTICE DIGITAL</createdBy>
-<createdTime>2021-10-26 05:35:58 UTC</createdTime>
+<createdTime>2021-10-28 21:48:36 UTC</createdTime>
 <ownerDesignName>Horarios</ownerDesignName>
 <engineerTo>
 <item key="85B6E950-A423-077B-F549-B41E3DCAEC74" value="true"/>
 <item key="A33ACBC0-BF19-051E-BA5C-0BD6DA0E17B3" value="true"/>
 </engineerTo>
-<sourcePk>FEB0E2B0-74B3-5C9A-837F-0837F9E28B14</sourcePk>
+<sourcePk>267241ED-C14A-7030-4550-A8EDE3214166</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>ABD565C4-9BEE-1265-B7D6-253476070BD8</sourceEntity>
+<sourceEntity>4D36BC42-0926-5BB0-E5CE-A8690D224F55</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>3AEB1154-B960-B6B6-1548-84948D2135AE</targetEntity>
+<targetEntity>ABD565C4-9BEE-1265-B7D6-253476070BD8</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
